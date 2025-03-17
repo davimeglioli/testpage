@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test di Caricamento</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="contenuto"></div>
+
+    <script>
+        let testo = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ";
+        let contenuto = "";
+        
+        // Genera un contenuto "pesante" ripetuto
+        for (let i = 0; i < 10000; i++) {
+            contenuto += testo;
+        }
+
+        document.getElementById("contenuto").innerText = contenuto;
+    </script>
+
+    </p>
+    <h2>Fine della pagina</h2>
+    <p>###ENDPAGE###</p>
+</body>
+</html>
